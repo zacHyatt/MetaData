@@ -1,0 +1,658 @@
+
+{
+    "Paladin": {
+        "Stats": ["Full Endurance"],
+        "Gears": [
+            "Vainglorious Locket",
+            "Egg Shelmet",
+            "Snorb",
+            "Aspect of Maladaptation"
+        ],
+        "Enchant": ["Reaper >= Lifesong > Cursed/Inferno"],
+        "Race": ["Sheaa > Lentum/Gynx > Daminos/Corvolus/Nisse > Estella > Vydeer"],
+        "Weapon": ["Jade Broadsword"],
+        "Offhand": ["Icerind Shield > Slimy Buckler"],
+        "Artifact": ["Chaos Orb >= Darksigil"],
+        "Subclass": ["Bard"],
+        "Weapon Shards": ["Full Voltaic"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["1-2-0"],
+        "Lost Scroll": ["Metrom's Grasp >= Heavenly Prayer"],
+        "Covenant": ["Church of Raphion > Way of Life"],
+        "Notes": [
+            "Use Molten Carapace over Aspect if the enemy is not Yar'thul, Seraphon, or MV.",
+            "Prioritize mastery 0-2-0 first.",
+            "At least 2 Voltaic is fine, but full Voltaic is ideal."
+        ]
+    },
+
+    "Strength Bladedancer": {
+        "Aliases": ["StrengthDancer"],
+        "Stats": ["60 Invested Luck, Rest Strength"],
+        "Gears": [
+            "Frozen Diadem/Crystallised Star",
+            "Wicked Crown",
+            "Crystal Sphere",
+            "Shard of Blight"
+        ],
+        "Enchant": ["Inferno >= Cursed > Frosted"],
+        "Race": ["Veneri/Inferion > Corvolus > Dullahan/Sheaa"],
+        "Weapon": ["Icerind Sword >= Blightrock Sword > Dragontooth Blade"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Wandering Practitioner", "Brawler's Armor"],
+        "Mastery": ["2-1-0"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World >= Cult of Thanasius"],
+        "Notes": [
+            "Vainglorious Locket and Traveller's Lamp can replace Wicked Crown and Shard of Blight for Yar'thul farming.",
+            "Use Diadem only if you have Frosted or Icerind.",
+            "Prioritize mastery 1-0-0 first."
+        ]
+    },
+
+    "Speed Bladedancer": {
+        "Aliases": ["SpeedDancer"],
+        "Stats": ["Full Speed"],
+        "Gears": [
+            "Focused Mind",
+            "Wicked Crown",
+            "Crystal Sphere",
+            "Shard of Blight"
+        ],
+        "Enchant": ["Inferno >= Cursed"],
+        "Race": ["Stultus"],
+        "Weapon": ["Icerind Sword >= Blightrock Sword > Dragontooth Blade"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["5 Shattering, 2 Empowering"],
+        "Armor": ["Rogue Hunter", "Rogue's Armor"],
+        "Mastery": ["0-1-2"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Way of Life/Blades"],
+        "Notes": [
+            "Vainglorious Locket and Traveller's Lamp can replace Wicked Crown and Shard of Blight for Yar'thul farming.",
+            "Prioritize mastery 0-0-2 first."
+        ]
+    },
+
+    "Berserker": {
+        "Stats": ["Full Strength"],
+        "Gears": [
+            "Crystallised Star",
+            "Wicked Crown",
+            "Crystal Sphere",
+            "Shard of Blight"
+        ],
+        "Enchant": ["Inferno >= Cursed > Frosted"],
+        "Race": ["Inferion/Veneri > Corvolus > Estella"],
+        "Weapon": ["Icerind Greatsword > Corealloy Manablade"],
+        "Offhand": [],
+        "Artifact": ["Reality Watch >= Shifting Hourglass > Chaos Orb/Darksigil"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Wandering Practitioner", "Brawler's Armor"],
+        "Mastery": ["0-1-2"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World >= Cult of Thanasius"],
+        "Notes": [
+            "Vainglorious Locket and Traveller's Lamp can replace Wicked Crown and Shard of Blight for Yar'thul farming.",
+            "Prioritize mastery 0-1-0 first."
+        ]
+    },
+
+    "Support Saint": {
+        "Stats": ["10 Invested Endurance, Rest Arcane"],
+        "Gears": [
+            "Vainglorious Locket",
+            "Parasitic Leech",
+            "Frosty Topper/The Smallest Boulder",
+            "Narthana's Leaf"
+        ],
+        "Enchant": ["Lifesong >> Inferno"],
+        "Race": ["Sheaa >= Daminos > Corvolus > Nisse/Lentum"],
+        "Weapon": ["Icerind Spear > Sun Spear/Blightrock Spear >= Any other spear"],
+        "Offhand": [],
+        "Artifact": ["Narthana's Sigil"],
+        "Subclass": ["Bard"],
+        "Weapon Shards": ["Full Voltaic"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["0-2-1"],
+        "Lost Scroll": ["Metrom's Grasp/Heavenly Prayer"],
+        "Covenant": ["Church of Raphion/Way of Life"],
+        "Notes": [
+            "Prioritize mastery 0-0-1 first, then 0-1-1.",
+            "0-1-2 can be used for more support."
+        ]
+    },
+
+    "DPS Saint": {
+        "Stats": ["Full Arcane"],
+        "Gears": [
+            "Coagulated Fingernail",
+            "Yar'thul's Wrath",
+            "Spiked Steel Balls",
+            "Crystal Sphere"
+        ],
+        "Enchant": ["Inferno"],
+        "Race": ["Inferion/Corvolus > Dullahan/Estella/Sheaa"],
+        "Weapon": ["Blightrock Spear > Dragonbone Spear"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core >= Darksigil"],
+        "Subclass": ["Beastmaster/Alchemist"],
+        "Weapon Shards": ["5 Shattering, 2 Voltaic"],
+        "Armor": ["Shade Walker", "Darkwraith's Armor"],
+        "Mastery": ["0-2-0"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Cult of Thanasius >= Way of Life"],
+        "Notes": [
+            "Vainglorious Locket can replace Yar'thul's Wrath in team fights.",
+            "Do not get mastery 0-0-1."
+        ]
+    },
+
+    "Speed Lancer": {
+        "Stats": ["Full Speed"],
+        "Gears": [
+            "Crystal Sphere",
+            "Focused Mind",
+            "Vainglorious Locket",
+            "Yar'thul's Wrath"
+        ],
+        "Enchant": ["Inferno >= Cursed >= Spectral/Midas"],
+        "Race": ["Stultus"],
+        "Weapon": ["Blightrock Spear > Dragonbone Spear"],
+        "Offhand": ["Slimy Buckler"],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Rogue Hunter", "Rogue's Armor"],
+        "Mastery": ["0-2-1/2-2-0"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Way of Life > Church of Raphion"],
+        "Notes": [
+            "Yar'thul's Wrath is only for playing without a healer or Parasitic Leech teammate.",
+            "Prioritize mastery 0-2-0 first."
+        ]
+    },
+
+    "Endurance Lancer": {
+        "Stats": ["Full Endurance"],
+        "Gears": [
+            "Egg Shelmet",
+            "Parasitic Leech",
+            "Dust Storm",
+            "Aspect of Maladaptation"
+        ],
+        "Enchant": ["Lifesong > Inferno/Cursed"],
+        "Race": ["Sheaa/Gynx > Lentum/Corvolus/Boreas > Nisse/Daminos >> Vydeer"],
+        "Weapon": ["Icerind Spear > Sun Spear/Blight Spear >= Any Spear"],
+        "Offhand": ["Icerind Shield > Slimy Buckler"],
+        "Artifact": ["Darksigil >= Chaos Orb"],
+        "Subclass": ["Bard"],
+        "Weapon Shards": ["Full Voltaic"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["2-2-0 >= 2-0-1"],
+        "Lost Scroll": ["Metrom's Grasp/Heavenly Prayer"],
+        "Covenant": ["Church of Raphion > Way of Life"],
+        "Notes": [
+            "Use Molten Carapace instead of Aspect except against Yar'thul, Seraphon, and MV.",
+            "Prioritize mastery 2-0-0 first."
+        ]
+    },
+
+    "Impaler": {
+        "Stats": ["Full Strength"],
+        "Gears": [
+            "Crystallised Star",
+            "Crystal Sphere",
+            "Tear Blood Crystal",
+            "Coagulated Fingernail"
+        ],
+        "Enchant": ["Inferno >= Cursed >> Frosted"],
+        "Race": ["Boreas/Inferion/Corvolus > Veneri/Estella/Sheaa > Drauga"],
+        "Weapon": ["Blightrock Spear >= Icerind Spear > Dragonbone Spear"],
+        "Offhand": [],
+        "Artifact": ["Shifting Hourglass >= Chaos Orb/Darksigil"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["5 Shattering, 2 Voltaic"],
+        "Armor": ["Wandering Practitioner", "Brawler's Armor"],
+        "Mastery": ["2-0-2/2-0-1"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World > Cult of Thanasius"],
+        "Notes": [
+            "Traveller's Lamp can replace Tear Blood Crystal for Yar'thul farming.",
+            "Yar'thul's Wrath can replace Coagulated Fingernail if solo.",
+            "Prioritize mastery 2-0-0 first."
+        ]
+    },
+
+    "Speed Ranger": {
+        "Stats": ["Full Speed"],
+        "Gears": [
+            "Crystal Sphere",
+            "Crystallised Star",
+            "Forest Charm",
+            "Yar'thul's Wrath"
+        ],
+        "Enchant": ["Inferno >= Cursed >= Spectral/Midas > Frosted"],
+        "Race": ["Stultus"],
+        "Weapon": ["Blightrock Dagger >= Icerind Sai > Dragontooth Dagger"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Rogue Hunter", "Rogue's Armor"],
+        "Mastery": ["1-0-2"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Church of Raphion/Way of Life"],
+        "Notes": ["Prioritize mastery 1-0-0 first."]
+    },
+
+    "Arcane Ranger": {
+        "Aliases": ["HybridRanger"],
+        "Stats": ["95 Invested Luck, Rest Arcane"],
+        "Gears": [
+            "Crystal Sphere",
+            "Crystallised Star",
+            "Forest Charm",
+            "Yar'thul's Wrath"
+        ],
+        "Enchant": ["Inferno >= Cursed > Frosted"],
+        "Race": ["Corvolus > Veneri/Inferion > Dullahan/Estella"],
+        "Weapon": ["Blightrock Dagger >= Icerind Sai > Dragontooth Dagger"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Deathmantle"],
+        "Mastery": ["1-0-2"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Cult of Thanasius"],
+        "Notes": ["Prioritize mastery 1-0-0 first."]
+    },
+
+    "Luck Rogue": {
+        "Stats": ["Full Luck"],
+        "Gears": [
+            "Crystal Sphere",
+            "7 Leaf Everthistle",
+            "Traveller's Lamp",
+            "Vainglorious Locket"
+        ],
+        "Enchant": ["Midas"],
+        "Race": ["Dullahan/Sheaa > Stultus > Veneri > Any other race"],
+        "Weapon": ["Blightrock Dagger > Blacksteel Knife"],
+        "Offhand": [],
+        "Artifact": ["Metrom's Amulet"],
+        "Subclass": ["Beastmaster"],
+        "Weapon Shards": ["2 Empowering, 5 Striking"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["0-0-1"],
+        "Lost Scroll": ["None"],
+        "Covenant": ["Blades of the World"],
+        "Notes": ["Forest Charm can be used if farming at The Crossing."]
+    },
+
+    "Strength Rogue": {
+        "Stats": ["Full Strength"],
+        "Gears": [
+            "Wicked Crown",
+            "Shard of Blight",
+            "Vainglorious Locket",
+            "Coagulated Fingernail/Crystal Sphere"
+        ],
+        "Enchant": ["Inferno >= Cursed"],
+        "Race": ["Boreas > Veneri/Inferion > Corvolus > Dullahan/Estella"],
+        "Weapon": ["Blightrock Dagger > Dragontooth Dagger"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Striking, 5 Shattering"],
+        "Armor": ["Wandering Practitioner"],
+        "Mastery": ["0-1-2"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World/Way of Life"],
+        "Notes": ["0-2-2 can also be used. Prioritize 0-1-0 first."]
+    },
+
+    "Luck Assassin": {
+        "Aliases": ["DoT Assassin"],
+        "Stats": ["Full Luck"],
+        "Gears": [
+            "Crystal Sphere",
+            "Impure Crown",
+            "Spiked Steel Balls/Tainted Quiver",
+            "Frozen Diadem/Eroded Blade/Crystallised Star"
+        ],
+        "Enchant": ["Hiemal > Inferno >= Frosted/Cursed"],
+        "Race": ["Drauga > Boreas/Dullahan/Sheaa/Vydeer/Ophimar > Amorus/Corvolus/Lentum"],
+        "Weapon": ["Icerind Sai/Ivory Dagger >= Blightrock Dagger > Sun Dagger"],
+        "Offhand": [],
+        "Artifact": ["Chaos Orb > Darksigil"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["5 Voltaic, 2 Shattering"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["2-2-0 > 1-2-0"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World/Way of Life"],
+        "Notes": ["Blightrock is a must for Handaconda. Prioritize 0-2-0 first."]
+    },
+
+    "Strength Assassin": {
+        "Stats": ["60 Invested Luck, Rest Strength"],
+        "Gears": [
+            "Wicked Crown",
+            "Shard of Blight",
+            "Vainglorious Locket",
+            "Coagulated Fingernail/Crystal Sphere"
+        ],
+        "Enchant": ["Cursed >= Inferno"],
+        "Race": ["Boreas > Corvolus/Veneri/Inferion > Dullahan/Estella"],
+        "Weapon": ["Blightrock Dagger > Dragontooth Dagger"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["2 Striking, 5 Shattering"],
+        "Armor": ["Wandering Practitioner"],
+        "Mastery": ["2-0-1"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World/Way of Life"],
+        "Notes": ["Prioritize mastery 2-0-0."]
+    },
+
+    "Elementalist": {
+        "Stats": ["Full Arcane"],
+        "Gears": [
+            "Crystal Sphere",
+            "Frozen Diadem",
+            "Vainglorious Locket",
+            "Coagulated Fingernail"
+        ],
+        "Enchant": ["Inferno >= Cursed"],
+        "Race": ["Boreas >= Corvolus > Nisse/Veneri/Inferion > Dullahan"],
+        "Weapon": ["Blightwood Staff >= Icerind Staff > Dragonbone Staff"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core > Shifting Hourglass"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["5 Shattering, 2 Striking"],
+        "Armor": ["Deathmantle/Corrupt Caster"],
+        "Mastery": ["0-2-1"],
+        "Lost Scroll": ["Permafrost Curse"],
+        "Covenant": ["Cult of Thanasius >= Way of Life"],
+        "Notes": ["Prioritize mastery 0-2-0 first."]
+    },
+
+    "Hexer": {
+        "Stats": ["56 Invested Arcane, Rest Endurance"],
+        "Gears": [
+            "Tainted Quiver",
+            "Ptera Heart",
+            "Aspect of Maladaptation",
+            "Open Hand"
+        ],
+        "Enchant": ["Hiemal > Inferno >= Cursed"],
+        "Race": ["Gynx >= Corvolus/Sheaa > Nisse > Lentum > Boreas/Daminos/Vastayan > Dullahan > Vydeer"],
+        "Weapon": ["Sandstone Staff >= Icerind Staff >= Jade Prayerstaff > Darkblood Staff"],
+        "Offhand": [],
+        "Artifact": ["Chaos Orb > Reality Watch"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["Full Voltaic"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["0-2-2"],
+        "Lost Scroll": ["Metrom's Grasp >= Heavenly Prayer"],
+        "Covenant": ["Church of Raphion > Way of Life"],
+        "Notes": [
+            "Never use Darksigil on Hexer.",
+            "Use Aspect only against Yar'thul, Seraphon, and MV.",
+            "Prioritize mastery 0-2-0 first."
+        ]
+    },
+
+    "DPS Hexer": {
+        "Stats": ["Full Arcane"],
+        "Gears": [
+            "Shard of Blight",
+            "Vainglorious Locket",
+            "Traveller's Lamp",
+            "Crystal Sphere"
+        ],
+        "Enchant": ["Cursed"],
+        "Race": ["Veneri/Dullahan > Any other race"],
+        "Weapon": ["Blightwood Staff > Dragonbone Staff"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Beastmaster"],
+        "Weapon Shards": ["4 Shattering, 2 Reversing, 1 Striking"],
+        "Armor": ["Arcane Robes", "Elementalist's Armor"],
+        "Mastery": ["0-2-0"],
+        "Lost Scroll": ["Permafrost Curse"],
+        "Covenant": ["Cult of Thanasius"],
+        "Notes": [
+            "Never use Spiked Steel Balls because it disrupts Death Curtain.",
+            "Use Inferno enchant if using Dragonbone Staff."
+        ]
+    },
+
+    "Necromancer": {
+        "Stats": ["Full Arcane"],
+        "Gears": [
+            "Imbuement Reliquary",
+            "Imperial Headband",
+            "Gelat Band",
+            "Frosty Topper"
+        ],
+        "Enchant": ["Inferno >= Cursed > Frosted"],
+        "Race": ["Vastayan > Sheaa > Corvolus/Daminos"],
+        "Weapon": ["Jade Prayerstaff > Sun Staff > Blightwood Staff"],
+        "Offhand": [],
+        "Artifact": ["Heaven's Authority > Stellian Core"],
+        "Subclass": ["Bard >= Alchemist"],
+        "Weapon Shards": ["5 Voltaic, 2 Shattering"],
+        "Armor": ["Deathmantle"],
+        "Mastery": ["2-2-0 > 2-1-0"],
+        "Lost Scroll": ["Heavenly Prayer > Metrom's Grasp"],
+        "Covenant": ["Church of Raphion > Way of Life"],
+        "Notes": ["Prioritize mastery 2-0-0."]
+    },
+
+    "Monk": {
+        "Stats": ["Full Strength"],
+        "Gears": [
+            "Vulcan Knuckle",
+            "Focused Mind",
+            "Crystal Sphere",
+            "Vainglorious Locket"
+        ],
+        "Enchant": ["Inferno"],
+        "Race": ["Inferion > Nisse/Dullahan > Corvolus/Veneri"],
+        "Weapon": ["Blightrock Cestus >= Dragonbone Gauntlets"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Beastmaster >= Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Wandering Practitioner", "Brawler's Armor"],
+        "Mastery": ["0-2-2 >= 0-2-1"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Blades of the World/Way of Life"],
+        "Notes": [
+            "Swap Vainglorious Locket with Yar'thul's Wrath if soloing a boss.",
+            "Prioritize mastery 0-2-0."
+        ]
+    },
+
+    "Brawler": {
+        "Stats": ["60 Invested Luck, Rest Strength"],
+        "Gears": [
+            "Spiked Steel Balls",
+            "Tainted Quiver",
+            "Crystal Sphere",
+            "Coagulated Fingernail"
+        ],
+        "Enchant": ["Inferno >= Cursed > Frosted"],
+        "Race": ["Inferion > Dullahan > Veneri/Amorus > Lentum"],
+        "Weapon": ["Blightrock Cestus >= Icerind Cestus > Dragonbone Gauntlets"],
+        "Offhand": [],
+        "Artifact": ["Chaos Orb > Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["5 Shattering, 2 Voltaic"],
+        "Armor": ["Wandering Practitioner", "Brawler's Armor"],
+        "Mastery": ["1-0-2 >= 1-2-0"],
+        "Lost Scroll": ["Wild Impulse"],
+        "Covenant": ["Blades of the World >= Cult of Thanasius"],
+        "Notes": ["Prioritize mastery 1-0-0 first."]
+    },
+
+    "Luck Darkwraith": {
+        "Aliases": ["LuckWraith"],
+        "Stats": ["Full Luck"],
+        "Gears": [
+            "Crystal Sphere",
+            "Shard of Blight",
+            "Traveller's Lamp",
+            "Vainglorious Locket"
+        ],
+        "Enchant": ["Cursed >= Inferno"],
+        "Race": ["Inferion > Veneri > Dullahan"],
+        "Weapon": ["Blightrock Cestus > Corealloy Manaclaws"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["3 Shattering, 2 Voltaic, 2 Reversing"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["2-0-1"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Cult of Thanasius"],
+        "Notes": ["Yar'thul farming focused build. Prioritize 0-0-1."]
+    },
+
+    "Arcane Darkwraith": {
+        "Aliases": ["HybridWraith"],
+        "Stats": ["60 Invested Luck, Rest Arcane"],
+        "Gears": [
+            "Crystal Sphere",
+            "Shard of Blight",
+            "Crystallised Star",
+            "Frozen Diadem/Yar'thul's Wrath/Vainglorious Locket"
+        ],
+        "Enchant": ["Inferno >= Cursed > Frosted"],
+        "Race": ["Drauga >= Corvolus/Inferion > Veneri/Dullahan/Sheaa"],
+        "Weapon": ["Blightrock Cestus >= Icerind Cestus > Corealloy Manaclaws"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Alchemist"],
+        "Weapon Shards": ["5 Shattering, 2 Voltaic"],
+        "Armor": ["Deathmantle"],
+        "Mastery": ["2-0-1/2-2-0"],
+        "Lost Scroll": ["Metrom's Grasp"],
+        "Covenant": ["Cult of Thanasius"],
+        "Notes": [
+            "Diadem can be swapped for Yar'thul's Wrath for solo bossing.",
+            "Vainglorious Locket can be used for speedrunning."
+        ]
+    },
+
+    "Tank Citadel": {
+        "Stats": ["Full Endurance"],
+        "Gears": [
+            "Molten Carapace",
+            "Coagulated Fingernail",
+            "Egg Shelmet",
+            "Snorb/Maladaptation"
+        ],
+        "Enchant": ["Reaper > Lifesong"],
+        "Race": ["Estella/Sheaa/Daminos/Lentum >= Inferion"],
+        "Weapon": ["Ivory >= Sandstone"],
+        "Offhand": ["Ferrus Towershield >= Icerind Shield/Slimy Buckler"],
+        "Artifact": ["Shifting Hourglass"],
+        "Subclass": ["Bard >= Blacksmith"],
+        "Weapon Shards": ["2+ Voltaic"],
+        "Armor": ["Paladin Cuirass", "Armored Lancer"],
+        "Mastery": ["0-2-2"],
+        "Lost Scroll": ["LSoMG"],
+        "Covenant": ["Way of Life > Church of Raphion"],
+        "Notes": [
+            "Molten Carapace gives free DR when low.",
+            "Shifting Hourglass has higher DR potential."
+        ]
+    },
+
+    "Arcane Arbiter": {
+        "Stats": ["Full Arcane", "60 Endurance, Rest Arcane"],
+        "Gears": [
+            "Traveller's Lamp",
+            "Vainglorious Locket",
+            "Crystal Sphere",
+            "Coagulated Fingernail"
+        ],
+        "Enchant": ["Inferno >= Cursed > Reaper"],
+        "Race": ["Dullahan >= Sheaa > Gynx > Veneri > Corvolus > Nisse"],
+        "Weapon": ["Sandstone Hammer > Star Seeing Hammer"],
+        "Offhand": [],
+        "Artifact": ["Shifting Hourglass >= Stellian Core > Chaos Orb"],
+        "Subclass": ["Alchemist > Bard"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Deathmantle > Arcane Robes"],
+        "Mastery": ["2-0-1/2-0-2"],
+        "Lost Scroll": ["Absolute Radiance"],
+        "Covenant": ["Way of Life > Cult > Church"],
+        "Notes": [
+            "Full Arcane is damage. 60 Endurance rest Arcane is for survival.",
+            "Use Chaos Orb only with 0-1-0 or 0-2-0."
+        ]
+    },
+
+    "Endurance Lionheart": {
+        "Stats": ["50 Invested Speed, Rest Endurance"],
+        "Gears": [
+            "Divine Promise",
+            "Egg Shelmet",
+            "Open Hand/The Smallest Boulder",
+            "Parasitic Leech/Aspect of Maladaptation/Molten Carapace"
+        ],
+        "Enchant": ["Lifesong >= Reaper > Inferno/Cursed"],
+        "Race": ["Sheaa > Lentum/Corvolus/Boreas/Daminos > Nisse > Vydeer"],
+        "Weapon": ["Any Axe"],
+        "Offhand": ["Icerind Shield > Slimy Buckler"],
+        "Artifact": ["Darksigil"],
+        "Subclass": ["Bard"],
+        "Weapon Shards": ["Full Voltaic"],
+        "Armor": ["Armored Lancer", "Lancer's Armor"],
+        "Mastery": ["2-0-2"],
+        "Lost Scroll": ["Metrom's Grasp", "Absolute Radiance"],
+        "Covenant": ["Church of Raphion > Way of Life"],
+        "Notes": [
+            "Use Aspect only against Yar'thul, Seraphon, and MV.",
+            "Use Molten Carapace otherwise."
+        ]
+    },
+
+    "Strength Lionheart": {
+        "Stats": ["Full Strength"],
+        "Gears": [
+            "Vulcan Knuckle",
+            "Crystal Sphere",
+            "Coagulated Fingernail",
+            "Vainglorious Locket"
+        ],
+        "Enchant": ["Inferno"],
+        "Race": ["Inferion >= Nisse/Corvolus/Veneri"],
+        "Weapon": ["Dragonbone Axe"],
+        "Offhand": [],
+        "Artifact": ["Stellian Core"],
+        "Subclass": ["Beastmaster >= Alchemist"],
+        "Weapon Shards": ["2 Voltaic, 5 Shattering"],
+        "Armor": ["Wandering Practitioner", "Brawler's Armor"],
+        "Mastery": ["2-1-0 >= 2-0-2"],
+        "Lost Scroll": ["Metrom's Grasp", "Absolute Radiance"],
+        "Covenant": ["Blades of the World/Way of Life"],
+        "Notes": [
+            "If you do not have max health nodes, get 10-20 extra Endurance.",
+            "Swap Vainglorious Locket with Yar'thul's Wrath if soloing a boss.",
+            "Prioritize mastery 0-1-0 or 2-0-0."
+        ]
+    }
+}
